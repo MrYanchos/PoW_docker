@@ -23,6 +23,7 @@ RUN pip install --no-cache-dir networkx scipy python-louvain
 RUN pip install --no-cache-dir nltk
 RUN pip install --no-cache-dir wikipedia-api
 RUN pip install --no-cache-dir gensim
+RUN pip install --no-cache-dir pydrive
 
 # 4) change back to notebook user
 COPY /run_jupyter.sh /
